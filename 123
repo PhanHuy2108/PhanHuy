@@ -1,0 +1,96 @@
+[1mdiff --git a/123.txt b/123.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/git_commit_template b/git_commit_template[m
+[1mnew file mode 160000[m
+[1mindex 0000000..998ba05[m
+[1m--- /dev/null[m
+[1m+++ b/git_commit_template[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit 998ba0564c2d48b09fd2ac89ae429fb1ccb3600d[m
+[1mdiff --git a/git_commit_template.txt b/git_commit_template.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2abe6bb[m
+[1m--- /dev/null[m
+[1m+++ b/git_commit_template.txt[m
+[36m@@ -0,0 +1,80 @@[m
+[32m+[m[32mAdd your title here[m
+[32m+[m
+[32m+[m[32m# See links to relevant web pages, issue trackers, blog articles, etc.[m
+[32m+[m[32mSee: https://example.com/[m
+[32m+[m[32mSee: [Example Page](https://example.com/)[m
+[32m+[m
+[32m+[m[32m# List all co-authors, so version control systems can connect teams.[m
+[32m+[m[32mCo-authored-by: Name <name@example.com>[m
+[32m+[m[32mCo-authored-by: Name <name@example.com>[m
+[32m+[m
+[32m+[m[32m# Why is this change happening, e.g. goals, use cases, stories, etc.?[m
+[32m+[m[32mWhy:[m
+[32m+[m
+[32m+[m[32m# How is this change happening, e.g. implementations, algorithms, etc.?[m
+[32m+[m[32mHow:[m
+[32m+[m
+[32m+[m[32m# Tags suitable for searching, such as hashtags, keywords, etc.[m
+[32m+[m[32mTags:[m
+[32m+[m
+[32m+[m[32m# ## Help ##[m
+[32m+[m[32m#[m
+[32m+[m[32m# Subject line imperative uppercase verbs:[m
+[32m+[m[32m#[m
+[32m+[m[32m#   Add = Create a capability e.g. feature, test, dependency.[m
+[32m+[m[32m#   Drop = Delete a capability e.g. feature, test, dependency.[m
+[32m+[m[32m#   Fix = Fix an issue e.g. bug, typo, accident, misstatement.[m
+[32m+[m[32m#   Bump = Increase the version of something e.g. a dependency.[m
+[32m+[m[32m#   Make = Change the build process, or tools, or infrastructure.[m
+[32m+[m[32m#   Start = Begin doing something; e.g. enable a toggle, feature flag, etc.[m
+[32m+[m[32m#   Stop = End doing something; e.g. disable a toggle, feature flag, etc.[m
+[32m+[m[32m#   Optimize = A change that MUST be just about performance, e.g. speed up code.[m
+[32m+[m[32m#   Document = A change that MUST be only in the documentation, e.g. help files.[m
+[32m+[m[32m#   Refactor = A change that MUST be just refactoring.[m
+[32m+[m[32m#   Reformat = A change that MUST be just format, e.g. indent line, trim space, etc.[m
+[32m+[m[32m#   Rephrase = A change that MUST be just textual, e.g. edit a comment, doc, etc.[m
+[32m+[m[32m#[m
+[32m+[m[32m# For the subject line:[m
+[32m+[m[32m#   * Use 50 characters maximum.[m
+[32m+[m[32m#   * Do not use a sentence-ending period.[m
+[32m+[m[32m#[m
+[32m+[m[32m# For the body text:[m
+[32m+[m[32m#   * Use as many lines as you like.[m
+[32m+[m[32m#   * Use 72 characters maximum per line for typical word wrap text.[m
+[32m+[m[32m#[m
+[32m+[m[32m#[m
+[32m+[m[32m# ## About ##[m
+[32m+[m[32m#[m
+[32m+[m[32m# This is our team's starting point for our git commit messages.[m
+[32m+[m[32m# You can edit this template as you like, to customize it.[m
+[32m+[m[32m#[m
+[32m+[m[32m# For more information about git commit ideas and help:[m
+[32m+[m[32m# https://github.com/joelparkerhenderson/git_commit_message[m
+[32m+[m[32m#[m
+[32m+[m[32m#[m
+[32m+[m[32m# ## Usage ##[m
+[32m+[m[32m#[m
+[32m+[m[32m# Put the template file here:[m
+[32m+[m[32m#[m
+[32m+[m[32m#     ~/.git_commit_template.txt[m
+[32m+[m[32m#[m
+[32m+[m[32m# Configure git to use the template file by running:[m
+[32m+[m[32m#[m
+[32m+[m[32m#     git config --global commit.template ~/.git_commit_template.txt[m
+[32m+[m[32m#[m
+[32m+[m[32m# Add the template file to the ~/.gitconfig file:[m
+[32m+[m[32m#[m
+[32m+[m[32m#     [commit][m
+[32m+[m[32m#       template = ~/.git_commit_template.txt[m
+[32m+[m[32m#[m
+[32m+[m[32m# If you prefer other file locations or ways of working,[m
+[32m+[m[32m# you can freely adjust the usage as you like.[m
+[32m+[m[32m#[m
+[32m+[m[32m#[m
+[32m+[m[32m# ## Tracking ##[m
+[32m+[m[32m#[m
+[32m+[m[32m# * Package: git_commit_message.txt[m
+[32m+[m[32m# * Version: 6.0.2[m
+[32m+[m[32m# * Updated: 2018-08-27T22:15:57Z[m
+[32m+[m[32m# * Licence: GNU General Public License (GPL-3.0)[m
+[32m+[m[32m# * Contact: Joel Parker Henderson (http://joelparkerhenderson.com)[m
